@@ -66,6 +66,7 @@
 	letter-spacing: 0;
 	text-decoration: none;
 	background-color: #d1d2d3;
+	border-radius: 4px;
 	outline: 0;
 	cursor: pointer;
 	overflow: hidden;
@@ -169,6 +170,7 @@
 	height: 100%;
 	background-size: cover;
 	background-position: center;
+
 }
 /*-----------------------------------------------*/
 /* $Header
@@ -448,6 +450,7 @@
 	width: 80px;
 	height: 4px;
 	background: url(../images/skill.png);
+	border-radius: 2px;
 	position: absolute;
 	bottom: -50%;
 	left: 50%;
@@ -497,6 +500,7 @@
 .timeline-card{
 	background-color: rgba(0,0,0,0.7);
 	padding: 24px;
+	border-radius: 4px;
 	width: calc(50% - 24px);
 }
 .timeline-card:before{
@@ -571,6 +575,7 @@
 	width: 20%;
 	height: 4px;
 	background-color: #DFCDCD;
+	border-radius: 2px;
 	position: absolute;
 	bottom: -10px;
 }
@@ -581,29 +586,15 @@
 	margin-bottom: 0;
 	margin-top: 16px;
 }
-.imgbox__inner .image:before{
-	content:"";
-	width: 0;
-	height: 2px;
-	background: linear-gradient(90deg,#1A1919,#A01212);
-	position: absolute;
+.imgbox__inner .image{
+	border-radius: 4px;
 	transition: all 0.3s;
 }
-.imgbox__inner .image:after{
-	content:"";
-	width: 0;
-	height: 2px;
-	background: linear-gradient(-90deg,#1A1919,#A01212);
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	transition: all 0.3s;
+.imgbox__inner .image:hover{
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.3);
 }
-.imgbox__inner .image:hover:before{
-	width: 100%;
-}
-.imgbox__inner .image:hover:after{
-	width: 100%;
+.imgbox__inner .image:active{
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
 }
 @media (max-width: 768px) {
 	.work-item .row{
