@@ -334,12 +334,16 @@
 		margin-top: 50px;
 	}
 }
+
 .hero__heading{
 	font-family: 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
 	font-size: 50px;
-	color: #fefefe;
+	color: #DFCDCD;
 	line-height: 64px;
 	text-shadow: 0 3px 5px rgba(0,0,0,0.5);
+}
+.hero__heading span{
+	color: #fefefe;
 }
 @media (max-width: 768px) {
 	.hero__heading{
