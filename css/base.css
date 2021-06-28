@@ -564,7 +564,7 @@ p{
 }
 .subtitle{
   font-size: 48px;
-  font-family: 'Centaur' , 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
+  font-family: 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 48px;
 }
@@ -574,7 +574,7 @@ p{
   height: 1px;
   background-color: #A01212;
   position: absolute;
-  bottom:0px;
+  bottom:-8px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -584,7 +584,7 @@ p{
   height: 1px;
   background-color: #A01212;
   position: absolute;
-  bottom:-10px;
+  bottom:-18px;
   left: 50%;
   transform: translateX(-50%);
 }
