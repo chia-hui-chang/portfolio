@@ -75,9 +75,8 @@
 	transition: all 0.3s;
 }
 .btn.btn--primary{
-	background-color: transparent;
+	background-color: #A01212;
 	color:#fefefe;
-	border: 1px solid #fefefe;
 	padding: 0 40px;
 }
 .btn.btn--secondary{
@@ -88,10 +87,9 @@
 }
 .btn.btn--primary:hover,
 .btn.btn--primary:active{
-	background-color: #A01212;
+	background-color: #961111;
 	color: #fefefe;
 	border: 0;
-	padding: 0 40px;
 }
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active{
