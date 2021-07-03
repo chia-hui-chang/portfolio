@@ -90,7 +90,8 @@
 	transition: all 0.3s;
 }
 .btn.btn--primary{
-	background-color: #A01212;
+	background-color: transparent;
+	border: 1px solid #fefefe;
 	color:#fefefe;
 	padding: 0 40px;
 }
