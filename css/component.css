@@ -36,6 +36,21 @@
 	background-size: cover;
 	background-position: center;
 }
+.bg:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+}
+@media (max-width: 480px) {
+	.bg:before{
+		opacity: 0.4;
+	}
+}
 .experience{
 	position: relative;
 	top: 0;
@@ -318,21 +333,23 @@
 	padding-top: 20vh;
 	padding-bottom: 20vh;
 }
+.hero__content{
+	margin-top: 80px;
+}
 @media (max-width: 480px) {
 	.hero{
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
-}
-.hero__content{
-	margin-top: 80px;
+	.hero__content{
+		text-align: center;
+	}
 }
 @media(max-width: 768px){
 	.hero__content{
 		margin-top: 50px;
 	}
 }
-
 .hero__heading{
 	font-family: 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
 	font-size: 50px;
@@ -348,29 +365,6 @@
 		font-size: 30px;
 		line-height: 48px;
 	}	
-}
-.hero__bg{
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	max-width: 1140px;
-	top: 80px;
-	width: 100%;
-	height: 100%;
-	background-image: url(../images/portrait.png);
-	background-size: 400px;
-	background-repeat: no-repeat;
-	background-position: top right;
-}
-@media (max-width: 768px) {
-	.hero__bg{
-		background-size: 320px;		
-	}
-}
-@media (max-width: 480px) {
-	.hero__bg{
-		background-size: 200px;		
-	}
 }
 /*-----------------------------------------------*/
 /* $Introduction
@@ -664,42 +658,6 @@
 	font-family: 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
 	font-size: 14px;
 }
-/*-----------------------------------------------*/
-/* $Parallax graphic
-/*-----------------------------------------------*/
-[class^=graphic]{
-	position: absolute;
-}
-.graphic_001{top: -70%;left: 20%;}
-.graphic_002{top: -40%;left: 2%;}
-.graphic_003{top: 50%;right: 5%;}
-.graphic_004{top: -20%;left: 10%;}
-.graphic_005{bottom: -20%;left: 5%;}
-.graphic_006{top: 50%;right: 5%;}
-.graphic_007{top: 10%;right: 5%;}
-.graphic_008{top: -10%;right: -10%;}
-.graphic_009{bottom: 50%;left: 5%;}
-.graphic_010{bottom: 0%;right: 20%;}
-.graphic_011{top: 5%;left: -5%;}
-.graphic_012{top: 12%;left: 5%;}
-.graphic_013{top: 20%;right: 10%;}
-.graphic_014{top: 50%;left: 5%;}
-.graphic_015{top: 57%;left: 5%;}
-.graphic_016{top: 71%;right: 10%;}
-.graphic_017{top: 70%;right: 5%;}
-.graphic_018{top: 84%;left: 5%;}
-.graphic_019{top: 70%;left: 10%;}
-.graphic_020{top: 0%;right: 20%;}
-.graphic_021{top: 30%;left: 10%;}
-.graphic_022{top: 35%;left: 10%;}
-.graphic_023{top: 40%;right: 15%;}
-.graphic_024{top: 70%;right: 10%;}
-@media(max-width: 768px){
-	.graphic_008{
-		opacity: 0;
-	}
-}
-
 /*-----------------------------------------------*/
 /* $Work
 /*-----------------------------------------------*/

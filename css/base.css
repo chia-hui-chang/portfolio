@@ -18,7 +18,7 @@
 /*-------------------------*/
 /* $Font import 
 ---------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap');
 
 /*-------------------------*/
 /* $Reset 
@@ -510,7 +510,7 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
   font-size: 80px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Noto Sans TC', Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -523,7 +523,7 @@ h2{
   margin-bottom: 24px;
 }
 h3{
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 400;
   font-family: 'Noto Sans TC',Helvetica ,微軟正黑體 , 'roboto', arial, sans-serif;
   line-height: 48px;
