@@ -680,6 +680,8 @@ ul{
 .u-push-right{float: right !important;}
 .u-pull-left{float: left !important;}
 .u-text-center{text-align: center !important;}
+.u-text-left{text-align: left !important;}
+.u-text-indent{text-indent:-16px !important;}
 .u-pt-pb-80{  
   padding-top: 80px;
   padding-bottom: 80px; }
